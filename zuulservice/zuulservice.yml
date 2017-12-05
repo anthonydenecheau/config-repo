@@ -3,4 +3,4 @@ zuul.prefix:  /api
 zuul.routes.agriaservice: /agria/**
 zuul.debug.request: true
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
-signing.key: "345345fsdfsf5345"
+#signing.key: "345345fsdfsf5345"
