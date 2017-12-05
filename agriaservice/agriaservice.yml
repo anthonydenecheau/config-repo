@@ -1,4 +1,6 @@
 example.property: "I AM IN THE DEFAULT"
+authentification.key: "RM48tVuRzZ28pipW93s8"
+authentification.value: "01/06/2018"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
