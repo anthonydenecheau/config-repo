@@ -11,5 +11,7 @@ spring.datasource.password: "{cipher}8ede00d6b4e39ac3883595fe740c16e7c0f9a56b960
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-#redis.server: "redis"
-#redis.port: "6379"
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true

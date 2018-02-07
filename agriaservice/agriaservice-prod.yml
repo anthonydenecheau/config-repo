@@ -11,7 +11,10 @@ spring.datasource.password: "{cipher}2563114bd7477da8272d4fa6e8e14360fa3d8ff79da
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
-hystrix.command.agriaservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-agriaservice.ribbon.ReadTimeout: 7000
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true
+
 #redis.server: "redis"
 #redis.port: "6379"

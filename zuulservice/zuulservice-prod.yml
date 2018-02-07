@@ -3,5 +3,11 @@ zuul.prefix:  /api
 zuul.routes.agriaservice: /agria/**
 zuul.routes.onlinedogshowservice: /ods/**
 zuul.debug.request: true
+
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
+hystrix.command.agriaservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+agriaservice.ribbon.ReadTimeout: 7000
+hystrix.command.onlinedogshowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+onlinedogshowservice.ribbon.ReadTimeout: 7000
+
 #signing.key: "345345fsdfsf5345"
