@@ -1,0 +1,20 @@
+example.property: "I AM IN THE DEFAULT"
+authentification.key: "{cipher}d3e8e396c6309c512c27fd251ee44df8de18502f804c9f211d73ed6a89e30f61d405680c7c4c348278a0f418344100a4"
+authentification.value: "{cipher}a4b75b51132aebd47a8f3c2faa933d1908eb54735f7dce64951a33636d24c200"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://database:5432/agria_prod"
+spring.datasource.username: "agria_prod"
+spring.datasource.password: "{cipher}2563114bd7477da8272d4fa6e8e14360fa3d8ff79da0b74048eb7270ebb3cb8f"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true
+
+#redis.server: "redis"
+#redis.port: "6379"
