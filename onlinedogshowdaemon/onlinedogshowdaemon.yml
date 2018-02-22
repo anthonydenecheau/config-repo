@@ -7,7 +7,7 @@ spring.datasource.driver-class-name: "oracle.jdbc.OracleDriver"
 spring.datasource.connection-test-query: "SELECT 1 FROM DUAL"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.test-on-borrow: "true"
-spring.jpa.show-sql: "true"
+spring.jpa.show-sql: "false"
 spring.jpa.database-platform: "org.hibernate.dialect.Oracle10gDialect"
 
 fixedDelay.in.milliseconds : "30000"
