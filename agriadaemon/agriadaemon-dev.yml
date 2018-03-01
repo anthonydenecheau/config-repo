@@ -15,3 +15,5 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 eureka.instance.leaseExpirationDurationInSeconds: 30 
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
+
+fixedDelay.in.milliseconds : "30000"

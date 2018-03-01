@@ -16,5 +16,7 @@ eureka.instance.leaseExpirationDurationInSeconds: 30
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
 
+fixedDelay.in.milliseconds : "30000"
+
 #redis.server: "redis"
 #redis.port: "6379"
