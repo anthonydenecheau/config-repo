@@ -11,6 +11,3 @@ spring.jpa.show-sql: "true"
 spring.jpa.database-platform: "org.hibernate.dialect.Oracle10gDialect"
 
 fixedDelay.in.milliseconds : "30000"
-
-
-fixedDelay.in.milliseconds : "30000"
