@@ -3,10 +3,19 @@ zuul.prefix:  /api
 zuul.routes.agriaservice: /agria/**
 zuul.routes.onlinedogshowservice: /ods/**
 zuul.routes.enciservice: /enci/**
+zuul.routes.encijudgeservice: /enci/**
+
+#swagger
+zuul.routes.account.path: /enci/**
+zuul.routes.account.serviceId: enci-service
+
+
 zuul.debug.request: true
 
+#default hystrix conf.
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 
+#service hystrix conf.
 hystrix.command.agriaservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 agriaservice.ribbon.ReadTimeout: 7000
 
@@ -16,4 +25,5 @@ onlinedogshowservice.ribbon.ReadTimeout: 7000
 hystrix.command.enciservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 enciservice.ribbon.ReadTimeout: 7000
 
-#signing.key: "345345fsdfsf5345"
+hystrix.command.encijudgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+encijudgeservice.ribbon.ReadTimeout: 7000

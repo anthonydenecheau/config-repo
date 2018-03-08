@@ -1,0 +1,17 @@
+example.property: "I AM IN THE DEFAULT"
+authentification.key: "{cipher}ebc2fbf7c17b70f0eaa3f62238656830fe66f36d6aaa826962ffdccc4aed6c8d7d26ad27f0f38a2e6c6f0fb8b30d5f30"
+authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
+spring.jpa.database: "POSTGRESQL"
+spring.datasource.platform:  "postgres"
+spring.jpa.show-sql: "true"
+spring.database.driverClassName: "org.postgresql.Driver"
+spring.datasource.url: "jdbc:postgresql://database:5432/enci"
+spring.datasource.username: "ods"
+spring.datasource.password: "{cipher}38a1c0dde99b8f6f6061381c0a008848d30f9abdd4229db384d1080f6cffeef5"
+spring.datasource.testWhileIdle: "true"
+spring.datasource.validationQuery: "SELECT 1"
+spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true
