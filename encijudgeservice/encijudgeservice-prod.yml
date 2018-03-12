@@ -6,8 +6,8 @@ spring.datasource.platform:  "postgres"
 spring.jpa.show-sql: "true"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://database:5432/enci_prod"
-spring.datasource.username: "ods_prod"
-spring.datasource.password: "{cipher}5bbb2622dc2d182d36854ee04b09ca1b0e17c166eba0f2990fd8e9a00e0f665e"
+spring.datasource.username: "enci_prod"
+spring.datasource.password: "{cipher}f7797730c072bca7517aaff3e6795fdd300208b64bdedf36cb7a507f198aa72e"
 spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
@@ -16,5 +16,3 @@ eureka.instance.leaseExpirationDurationInSeconds: 30
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
 
-#redis.server: "redis"
-#redis.port: "6379"

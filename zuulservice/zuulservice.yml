@@ -3,12 +3,7 @@ zuul.prefix:  /api
 zuul.routes.agriaservice: /agria/**
 zuul.routes.onlinedogshowservice: /ods/**
 zuul.routes.enciservice: /enci/**
-zuul.routes.encijudgeservice: /enci/**
-
-#swagger
-zuul.routes.account.path: /enci/**
-zuul.routes.account.serviceId: enci-service
-
+zuul.routes.encijudgeservice: /encijudge/**
 
 zuul.debug.request: true
 
