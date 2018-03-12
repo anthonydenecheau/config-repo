@@ -17,3 +17,6 @@ onlinedogshowservice.ribbon.ReadTimeout: 7000
 
 hystrix.command.enciservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 enciservice.ribbon.ReadTimeout: 7000
+
+hystrix.command.encijudgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+encijudgeservice.ribbon.ReadTimeout: 7000
