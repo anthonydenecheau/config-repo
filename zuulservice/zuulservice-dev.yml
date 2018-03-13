@@ -17,8 +17,8 @@ agriaservice.ribbon.ReadTimeout: 7000
 hystrix.command.onlinedogshowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 onlinedogshowservice.ribbon.ReadTimeout: 7000
 
-hystrix.command.encisdogervice.execution.isolation.thread.timeoutInMilliseconds: 7000
-encisdogervice.ribbon.ReadTimeout: 7000
+hystrix.command.encidogervice.execution.isolation.thread.timeoutInMilliseconds: 7000
+encidogervice.ribbon.ReadTimeout: 7000
 
 hystrix.command.encijudgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 encijudgeservice.ribbon.ReadTimeout: 7000
