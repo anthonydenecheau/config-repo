@@ -2,8 +2,9 @@ zuul.ignored-services: "*"
 zuul.prefix:  /api
 zuul.routes.agriaservice: /agria/**
 zuul.routes.onlinedogshowservice: /ods/**
-zuul.routes.enciservice: /enci/**
+zuul.routes.encisdogervice: /encidog/**
 zuul.routes.encijudgeservice: /encijudge/**
+zuul.routes.encishowservice: /encishow/**
 
 zuul.debug.request: true
 
@@ -15,8 +16,11 @@ agriaservice.ribbon.ReadTimeout: 7000
 hystrix.command.onlinedogshowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 onlinedogshowservice.ribbon.ReadTimeout: 7000
 
-hystrix.command.enciservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-enciservice.ribbon.ReadTimeout: 7000
+hystrix.command.encisdogervice.execution.isolation.thread.timeoutInMilliseconds: 7000
+encisdogervice.ribbon.ReadTimeout: 7000
 
 hystrix.command.encijudgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 encijudgeservice.ribbon.ReadTimeout: 7000
+
+hystrix.command.encishowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+encishowservice.ribbon.ReadTimeout: 7000
