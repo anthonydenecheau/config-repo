@@ -1,5 +1,7 @@
 example.property: "I AM IN THE DEFAULT"
-authentification.key: "{cipher}ebc2fbf7c17b70f0eaa3f62238656830fe66f36d6aaa826962ffdccc4aed6c8d7d26ad27f0f38a2e6c6f0fb8b30d5f30"
+authentification.keys[0]: "{cipher}d3e8e396c6309c512c27fd251ee44df8de18502f804c9f211d73ed6a89e30f61d405680c7c4c348278a0f418344100a4"
+authentification.keys[1]: "{cipher}171bde8adfa44bf3c77613f2a2f8dd109e76ecea03fa48bc38510e902a377715f3f3e859cd892d15c3131a57cfc56c96"
+authentification.keys[2]: "{cipher}ebc2fbf7c17b70f0eaa3f62238656830fe66f36d6aaa826962ffdccc4aed6c8d7d26ad27f0f38a2e6c6f0fb8b30d5f30"
 authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
