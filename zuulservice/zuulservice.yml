@@ -4,7 +4,7 @@ zuul.routes.agriaservice: /agria/**
 zuul.routes.onlinedogshowservice: /ods/**
 zuul.routes.encidogservice: /encidog/**
 zuul.routes.judgeservice: /judge/**
-zuul.routes.encishowservice: /encishow/**
+zuul.routes.showservice: /show/**
 
 zuul.debug.request: true
 
@@ -24,5 +24,5 @@ encidogservice.ribbon.ReadTimeout: 7000
 hystrix.command.judgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
 judgeservice.ribbon.ReadTimeout: 7000
 
-hystrix.command.encishowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-encishowservice.ribbon.ReadTimeout: 7000
+hystrix.command.showservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+showservice.ribbon.ReadTimeout: 7000
