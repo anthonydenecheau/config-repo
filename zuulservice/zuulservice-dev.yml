@@ -11,21 +11,6 @@ zuul.debug.request: true
 #default hystrix conf.
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 2500
 
-hystrix.command.onlinedogshowservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-onlinedogshowservice.ribbon.ReadTimeout: 7000
-
-hystrix.command.dogservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-dogservice.ribbon.ReadTimeout: 7000
-
-hystrix.command.judgeservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-judgeservice.ribbon.ReadTimeout: 7000
-
-hystrix.command.showservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-showservice.ribbon.ReadTimeout: 7000
-
-hystrix.command.lofselectclubservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-lofselectclubservice.ribbon.ReadTimeout: 7000
-
 # authentification properties
 authentification.max.attempt: 10 # try
 authentification.recovery.attempt: 5 # min

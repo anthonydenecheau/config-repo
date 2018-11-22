@@ -15,6 +15,9 @@ spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialec
 breeder.limitTopNAffix: 20
 parent.limitTopNFathers: 20
 
+hystrix.command.lofselectclubservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+lofselectclubservice.ribbon.ReadTimeout: 7000
+
 eureka.instance.leaseExpirationDurationInSeconds: 30 
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
