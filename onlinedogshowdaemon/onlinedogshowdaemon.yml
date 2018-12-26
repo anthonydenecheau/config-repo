@@ -11,3 +11,6 @@ spring.jpa.show-sql: "true"
 spring.jpa.database-platform: "org.hibernate.dialect.Oracle10gDialect"
 
 fixedDelay.in.milliseconds : "30000"
+
+spring.cloud.gcp.pubsub.project-id: "lof-ws-test"
+spring.cloud.gcp.pubsub.credentials.location: "file:${GOOGLE_APPLICATION_CREDENTIALS}"
