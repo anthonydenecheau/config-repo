@@ -9,6 +9,7 @@ spring.cloud.gcp.sql.instance-connection-name: "{cipher}37cc3dc5d9a872691b771853
 
 spring.datasource.username: "postgres"
 spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219587cfc08d91b20a90b45c"
+# Pas obligé de le préciser mais nécessaire pour être compatbile avec le profile default
 spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
 
 
