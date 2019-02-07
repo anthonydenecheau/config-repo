@@ -2,14 +2,15 @@ example.property: "I AM IN THE DEFAULT"
 authentification.keys[0]: "{cipher}ea181ce358ef2ad4d84444c1d7c07258cfd783fbc9d124e2ca7af21475e869e711f27e02736e3eb2daaf27cc5b7fe3a0"
 authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 
-spring.datasource.username: "postgres"
-spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219587cfc08d91b20a90b45c"
-spring.datasource.url: ""
-
 spring.cloud.gcp.projectId: lof-ws-test
 spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}      
 spring.cloud.gcp.sql.databaseName: "{cipher}99c5839f8561963b9064a2a36f56e6e3d4b52a3dacec5f20ad368f314563476f"
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}37cc3dc5d9a872691b77185368cf3c64faa875e9173c7df67a9dc07de8716b9897a9c09f0d6815eb035bbdc7f024c40eb04dd4d80d83a1b26eb8a8cba81f783a"
+
+spring.datasource.username: "postgres"
+spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219587cfc08d91b20a90b45c"
+spring.datasource.url: jdbc:postgresql://google/postgres?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
+
 
 breeder.limitTopNAffix: 20
 parent.limitTopNFathers: 20
