@@ -1,25 +1,2 @@
 example.property: "I AM IN THE DEFAULT"
-authentification.keys[0]: "{cipher}ea181ce358ef2ad4d84444c1d7c07258cfd783fbc9d124e2ca7af21475e869e711f27e02736e3eb2daaf27cc5b7fe3a0"
-authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 
-spring.cloud.gcp.projectId: lof-ws-test
-spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}      
-spring.cloud.gcp.sql.databaseName: "{cipher}f3497084253971066fe98bec14bd894f4f54945efb9de1372e265b78a19d01da"
-spring.cloud.gcp.sql.instance-connection-name: "{cipher}99a78f403cee53a2368beae7fd1f9844ef12dc93dd6a114d33cea65835cf476df0cac8d95ffb3f0462c3591f73271604f6605270912226ae4b548aa23de959573d4d93d3d3c95d1870d1320b1a246c6a"
-
-spring.datasource.username: "lofselectclub"
-spring.datasource.password: "{cipher}1232f873415a9e9d0e83bfed7ca0fa43be38fb3cace1f6396ab83c23d1597f69"
-# Nécessaire pour être compatbile avec le profile default
-# Si pas d'environnement debian == facultatif
-spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
-
-
-breeder.limitTopNAffix: 20
-parent.limitTopNFathers: 20
-
-hystrix.command.lofselectclubservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-lofselectclubservice.ribbon.ReadTimeout: 7000
-
-eureka.instance.leaseExpirationDurationInSeconds: 30 
-eureka.instance.leaseRenewalIntervalInSeconds: 10
-eureka.client.healthcheck.enabled: true
