@@ -8,7 +8,7 @@ spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}
 spring.cloud.gcp.sql.databaseName: "{cipher}fdf883b2fab23bb70d67c8d1d0cc6f905745067e6abfb7f678cf9049bcda9a9c"
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}158d8dfa33fc7aa0d57abffe2fb8acf4c5e8b856af1ea0d482969dd7b8d8a9778191ce3a2af3b34bbe0f98ed74a2343cc266e2e0600fb91176608f1f6d60fdbf57a634885e20bfb8db2e7c271157519b"
 
-spring.datasource.username: "postgres"
+spring.datasource.username: "lofselectclub"
 spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219587cfc08d91b20a90b45c"
 # Nécessaire pour être compatbile avec le profile default
 # Si pas d'environnement debian == facultatif
