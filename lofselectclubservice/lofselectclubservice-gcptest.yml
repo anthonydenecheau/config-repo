@@ -13,3 +13,13 @@ spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219
 # Nécessaire pour être compatbile avec le profile default
 # Si pas d'environnement debian == facultatif
 spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
+
+breeder.limitTopNAffix: 20
+parent.limitTopNFathers: 20
+
+hystrix.command.lofselectclubservice.execution.isolation.thread.timeoutInMilliseconds: 7000
+lofselectclubservice.ribbon.ReadTimeout: 7000
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true
