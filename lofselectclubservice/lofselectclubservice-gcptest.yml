@@ -5,7 +5,7 @@ authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0c
 
 spring.cloud.gcp.projectId: lof-ws-test
 spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}      
-spring.cloud.gcp.sql.databaseName: "{cipher}99c5839f8561963b9064a2a36f56e6e3d4b52a3dacec5f20ad368f314563476f"
+spring.cloud.gcp.sql.databaseName: "{cipher}fdf883b2fab23bb70d67c8d1d0cc6f905745067e6abfb7f678cf9049bcda9a9c"
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}158d8dfa33fc7aa0d57abffe2fb8acf4c5e8b856af1ea0d482969dd7b8d8a9778191ce3a2af3b34bbe0f98ed74a2343cc266e2e0600fb91176608f1f6d60fdbf57a634885e20bfb8db2e7c271157519b"
 
 spring.datasource.username: "postgres"
