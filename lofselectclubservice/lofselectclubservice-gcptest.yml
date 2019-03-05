@@ -13,7 +13,8 @@ spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219
 # Nécessaire pour être compatbile avec le profile default
 # Si pas d'environnement debian == facultatif
 #spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
-spring.datasource.url: jdbc:postgresql://10.116.48.4/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
+#spring.datasource.url: jdbc:postgresql://10.116.48.4/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
+spring.datasource.url: "jdbc:postgresql://10.116.48.4:5432/lofselectclub"
 
 breeder.limitTopNAffix: 20
 parent.limitTopNFathers: 20
