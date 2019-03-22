@@ -3,7 +3,7 @@ authentification.keys[0]: "{cipher}ea181ce358ef2ad4d84444c1d7c07258cfd783fbc9d12
 authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
-spring.jpa.show-sql: "true"
+spring.jpa.show-sql: "false"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://database:5432/lofselectclub_prod"
 spring.datasource.username: "lofselectclub_prod"
