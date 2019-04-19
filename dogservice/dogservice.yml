@@ -6,7 +6,7 @@ authentification.keys[3]: "{cipher}eb5263d70faf538d3d2c68cd3c88860282f4eae464809
 authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 spring.jpa.database: "POSTGRESQL"
 spring.datasource.platform:  "postgres"
-spring.jpa.show-sql: "true"
+spring.jpa.show-sql: "false"
 spring.database.driverClassName: "org.postgresql.Driver"
 spring.datasource.url: "jdbc:postgresql://database:5432/ws_dev"
 spring.datasource.username: "ws_dev"
