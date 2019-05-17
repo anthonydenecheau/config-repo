@@ -5,7 +5,7 @@ authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0c
 
 spring.cloud.gcp.projectId: lof-ws-test
 spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}      
-spring.cloud.gcp.sql.databaseName: "{cipher}fdf883b2fab23bb70d67c8d1d0cc6f905745067e6abfb7f678cf9049bcda9a9c"
+spring.cloud.gcp.sql.databaseName: "{cipher}64f47d1af08274f29864cfee6cb2941d495518e6ea220789ecf53d088ab2c152f6a46c9ea0a03dc7ccc92ab9ef891e5edfb122475a7488ea69b666dfe8682d6f"
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}158d8dfa33fc7aa0d57abffe2fb8acf4c5e8b856af1ea0d482969dd7b8d8a9778191ce3a2af3b34bbe0f98ed74a2343cc266e2e0600fb91176608f1f6d60fdbf57a634885e20bfb8db2e7c271157519b"
 
 spring.datasource.username: "lofselectclub"
@@ -25,3 +25,4 @@ lofselectclubservice.ribbon.ReadTimeout: 7000
 eureka.instance.leaseExpirationDurationInSeconds: 30 
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
+toto
