@@ -25,4 +25,3 @@ lofselectclubservice.ribbon.ReadTimeout: 7000
 eureka.instance.leaseExpirationDurationInSeconds: 30 
 eureka.instance.leaseRenewalIntervalInSeconds: 10
 eureka.client.healthcheck.enabled: true
-toto
