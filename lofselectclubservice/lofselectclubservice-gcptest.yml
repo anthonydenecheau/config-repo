@@ -8,13 +8,13 @@ spring.cloud.gcp.credentials.location: file:${GOOGLE_APPLICATION_CREDENTIALS}
 spring.cloud.gcp.sql.databaseName: "{cipher}58dcfbdd2c5b2d1c3ba75de285c930c4c9d9df6c7b460e32e3a4e84c6c9c5224"
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}f86fb4b5a33dc5d5706fac328fe0d0414b15ddef3b1ad4a28ad27f24271bb848042731ff6bfd860a45b9f24badea242f0aabea0962d42844673174284d1d3e85"
 
-spring.datasource.username: "lofselectclub"
-spring.datasource.password: "{cipher}a0f0a21ba795b21a93b99d05bc626e6c3b8d6170219587cfc08d91b20a90b45c"
+spring.datasource.username: "lofselectclub_b"
+spring.datasource.password: "{cipher}
 # Nécessaire pour être compatbile avec le profile default
 # Si pas d'environnement debian == facultatif
 #spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
 #spring.datasource.url: jdbc:postgresql://10.116.48.4/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
-spring.datasource.url: "jdbc:postgresql://database:5432/${spring.cloud.gcp.sql.databaseName}"
+spring.datasource.url: "jdbc:postgresql://10.116.48.2:5432/lofselectclub_b
 
 breeder.limitTopNAffix: 20
 parent.limitTopNFathers: 20
