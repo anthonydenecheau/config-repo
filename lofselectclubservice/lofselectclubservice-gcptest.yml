@@ -9,7 +9,7 @@ spring.cloud.gcp.sql.databaseName: "{cipher}58dcfbdd2c5b2d1c3ba75de285c930c4c9d9
 spring.cloud.gcp.sql.instance-connection-name: "{cipher}f86fb4b5a33dc5d5706fac328fe0d0414b15ddef3b1ad4a28ad27f24271bb848042731ff6bfd860a45b9f24badea242f0aabea0962d42844673174284d1d3e85"
 
 spring.datasource.username: "lofselectclub_b"
-spring.datasource.password: "{cipher}bc80d30c4866e193df3255bf0f7d553d8e8206a41c56dabee1da7a7a7e08eb5ef642d9d79ee612ac1f56cf0d14f2dc045408290a6cbbeb8fb84a20b2504a672f"
+spring.datasource.password: "{cipher}31f1f103c8cb58c5ef00cf535dfb38c865722a44033127531d0731ce13d9069053493ee56d7bd741c12aa2e469a646b47eb1457147c49c7fb54c683834726dab"
 # Nécessaire pour être compatbile avec le profile default
 # Si pas d'environnement debian == facultatif
 #spring.datasource.url: jdbc:postgresql://google/${spring.cloud.gcp.sql.databaseName}?socketFactory=com.google.cloud.sql.postgres.SocketFactory&cloudSqlInstance=${spring.cloud.gcp.sql.instance-connection-name}&useSSL=false
