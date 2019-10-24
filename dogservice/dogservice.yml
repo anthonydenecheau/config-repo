@@ -15,8 +15,8 @@ spring.datasource.testWhileIdle: "true"
 spring.datasource.validationQuery: "SELECT 1"
 spring.jpa.properties.hibernate.dialect: "org.hibernate.dialect.PostgreSQLDialect"
 
-hystrix.command.dogservice.execution.isolation.thread.timeoutInMilliseconds: 7000
-dogservice.ribbon.ReadTimeout: 7000
+hystrix.command.dogservice.execution.isolation.thread.timeoutInMilliseconds: 10000
+dogservice.ribbon.ReadTimeout: 10000
 
 eureka.instance.leaseExpirationDurationInSeconds: 30 
 eureka.instance.leaseRenewalIntervalInSeconds: 10
