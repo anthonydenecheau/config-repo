@@ -5,7 +5,7 @@ zuul.routes.dogservice: /dog/**
 zuul.routes.judgeservice: /judge/**
 zuul.routes.showservice: /show/**
 zuul.routes.lofselectclubservice: /lofselectclub/**
-zuul.routes.icadservice: /icad/**
+zuul.routes.icadservice: /identification/**
 
 zuul.debug.request: true
 
