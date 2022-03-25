@@ -13,4 +13,11 @@ spring.datasource.test-on-borrow: "true"
 spring.jpa.show-sql: "true"
 spring.jpa.database-platform: "org.hibernate.dialect.Oracle10gDialect"
 
+hystrix.command.icadservice.execution.isolation.thread.timeoutInMilliseconds: 10000
+icadservice.ribbon.ReadTimeout: 10000
+
+eureka.instance.leaseExpirationDurationInSeconds: 30 
+eureka.instance.leaseRenewalIntervalInSeconds: 10
+eureka.client.healthcheck.enabled: true
+
 fixedDelay.in.milliseconds : "30000"
