@@ -6,6 +6,7 @@ zuul.routes.judgeservice: /judge/**
 zuul.routes.showservice: /show/**
 zuul.routes.lofselectclubservice: /lofselectclub/**
 zuul.routes.icadservice: /identification/**
+zuul.routes.licenceservice: /licence/**
 
 zuul.debug.request: true
 
