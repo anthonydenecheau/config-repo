@@ -1,6 +1,6 @@
 example.property: "I AM IN THE DEFAULT"
 
-authentification.keys[0]: "{cipher}e566ed1409a174e3f9ef02629e23fedf366fc2e6de006ecd5f8337b2ba83aca97d20608d4c541967b5f1e21a18131515"
+authentification.keys[0]: "{cipher}390ef0c57fc53e677008c1f1f011e4ab8cc42006a1bf38c230283fc97ae197c72b2a76fb60596b75772b821ba201b304"
 authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0cda1b41f77478b4b52"
 
 spring.datasource.url: "jdbc:oracle:thin:@lofdev:1521/LOFDEV"
