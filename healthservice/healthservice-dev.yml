@@ -5,7 +5,7 @@ authentification.value: "{cipher}679a9499b52e254f97b822f0847082d7c023a15bcd4fc0c
 
 myPacs.accessToken: "{cipher}9842151502c9da0404ceffeca118e68176e6b6e67e673e78271d146849133d13fa270ecdbb3ebea9bbc5d45f11469cb28fffaf16c222b62ae3b0e10a8800c2004b656f4f6dac79b8a318319ab11e113974adfecb54a9e2046dad7e2214f332638bb1de134a2b010b2c447f5f77d20ca9160ace2decb75291cd5ffac8d582bc029ce61dd74887362ad8f30b4a53a10b2b53f58a190a07a0615547325806f79ebc"
 
-spring.datasource.url: "jdbc:oracle:thin:@lofdev:1521/LOFDEV"
+spring.datasource.url: "jdbc:oracle:thin:@lof:1521/LOFREC"
 spring.datasource.username: "U_LOF"
 spring.datasource.password: "{cipher}bb319b93b1d299cbe4680aef3cdf393bb401ff7c7dc7e0fd46542740a0b46fc5"
 spring.datasource.driver-class-name: "oracle.jdbc.OracleDriver"
